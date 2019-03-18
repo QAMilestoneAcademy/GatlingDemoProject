@@ -1,0 +1,10 @@
+{
+  "simulation": "myfirstpackage.myfirstscript",
+  "simulationId": "myfirstscript",
+  "start": 1551916416258,
+  "description": "",
+  "scenarios": ["viewCruise"],
+  "assertions": [
+
+  ]
+}

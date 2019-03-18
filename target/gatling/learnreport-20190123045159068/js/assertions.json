@@ -1,0 +1,10 @@
+{
+  "simulation": "myfirstpackage.LearnReport",
+  "simulationId": "learnreport",
+  "start": 1548219119068,
+  "description": "",
+  "scenarios": ["SE"],
+  "assertions": [
+
+  ]
+}

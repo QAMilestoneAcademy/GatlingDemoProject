@@ -1,0 +1,10 @@
+{
+  "simulation": "myfirstpackage.SetUpUserLoadClosedSystem",
+  "simulationId": "setupuserloadclosedsystem",
+  "start": 1549515822341,
+  "description": "",
+  "scenarios": ["SE1", "SE2"],
+  "assertions": [
+
+  ]
+}

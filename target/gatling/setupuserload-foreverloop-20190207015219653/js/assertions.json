@@ -1,0 +1,10 @@
+{
+  "simulation": "learngatling.SetUpUserLoad_foreverLoop",
+  "simulationId": "setupuserload-foreverloop",
+  "start": 1549504339653,
+  "description": "",
+  "scenarios": ["SE1", "SE2"],
+  "assertions": [
+
+  ]
+}

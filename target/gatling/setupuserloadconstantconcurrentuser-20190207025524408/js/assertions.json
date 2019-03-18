@@ -1,0 +1,10 @@
+{
+  "simulation": "learngatling.SetUpUserLoadConstantConcurrentUser",
+  "simulationId": "setupuserloadconstantconcurrentuser",
+  "start": 1549508124408,
+  "description": "",
+  "scenarios": ["SE1", "SE2"],
+  "assertions": [
+
+  ]
+}

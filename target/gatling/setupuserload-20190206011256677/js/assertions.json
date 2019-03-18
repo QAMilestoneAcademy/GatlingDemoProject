@@ -1,0 +1,10 @@
+{
+  "simulation": "learngatling.SetUpUserLoad",
+  "simulationId": "setupuserload",
+  "start": 1549415576677,
+  "description": "",
+  "scenarios": ["SE1", "SE2"],
+  "assertions": [
+
+  ]
+}

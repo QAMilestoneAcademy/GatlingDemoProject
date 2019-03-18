@@ -1,0 +1,65 @@
+RUN	learngatling.SetUpUserLoadConstantConcurrentUser	setupuserloadconstantconcurrentuser	1549508124408	 	3.0.2
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508127187
+USER	SE1	1	START	1549508127180	1549508127180
+USER	SE2	3	START	1549508127202	1549508127202
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508127717
+USER	SE1	2	START	1549508127717	1549508127717
+USER	SE2	4	START	1549508127738	1549508127738
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508128207
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508128737
+REQUEST	3		Homepage	1549508127221	1549508129120	OK	 
+REQUEST	4		Homepage	1549508127739	1549508129120	OK	 
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508138207
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508138739
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508139218
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508139740
+USER	SE1	1	END	1549508127180	1549508149223
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508149226
+USER	SE1	5	START	1549508149225	1549508149225
+USER	SE1	2	END	1549508127717	1549508149741
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508149742
+USER	SE1	6	START	1549508149741	1549508149741
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508150240
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508150759
+REQUEST	3		SearchFlight	1549508155579	1549508155831	OK	 
+REQUEST	4		SearchFlight	1549508155579	1549508155839	OK	 
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508160252
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508160767
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508161251
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508161772
+REQUEST	3		SelectFlight	1549508167470	1549508167812	OK	 
+REQUEST	4		SelectFlight	1549508167469	1549508167812	OK	 
+USER	SE1	5	END	1549508149225	1549508171249
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508171250
+USER	SE1	7	START	1549508171249	1549508171249
+USER	SE1	6	END	1549508149741	1549508171762
+ERROR	Homepage: Failed to build request: No baseUrl defined but provided url is relative : / 	1549508171763
+USER	SE1	8	START	1549508171762	1549508171762
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508172271
+ERROR	request_2: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508172779
+REQUEST	3		BookFlight	1549508179428	1549508179894	OK	 
+REQUEST	4		BookFlight	1549508179429	1549508179984	OK	 
+REQUEST	3		BookFlight Redirect 1	1549508179909	1549508180202	OK	 
+REQUEST	4		BookFlight Redirect 1	1549508179987	1549508180217	OK	 
+USER	SE2	3	END	1549508127202	1549508181747
+USER	SE2	9	START	1549508181748	1549508181748
+USER	SE2	4	END	1549508127738	1549508181747
+USER	SE2	10	START	1549508181751	1549508181751
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508182279
+ERROR	SearchFlight: Failed to build request: No baseUrl defined but provided url is relative : /flights?utf8=%E2%9C%93&from=1&to=2&date=2015-01-03&num_passengers=2&commit=search 	1549508182787
+REQUEST	9		Homepage	1549508181750	1549508183172	OK	 
+REQUEST	10		Homepage	1549508181752	1549508183172	OK	 
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508183277
+ERROR	request_6: Failed to build request: No baseUrl defined but provided url is relative : /favicon.ico 	1549508183787
+USER	SE1	7	END	1549508171249	1549508193278
+USER	SE1	8	END	1549508171762	1549508193793
+REQUEST	10		SearchFlight	1549508209152	1549508209490	OK	 
+REQUEST	9		SearchFlight	1549508209152	1549508209490	OK	 
+REQUEST	9		SelectFlight	1549508221019	1549508221265	OK	 
+REQUEST	10		SelectFlight	1549508221019	1549508221273	OK	 
+REQUEST	10		BookFlight	1549508232917	1549508233552	OK	 
+REQUEST	9		BookFlight	1549508232921	1549508234064	OK	 
+REQUEST	10		BookFlight Redirect 1	1549508233555	1549508234065	OK	 
+REQUEST	9		BookFlight Redirect 1	1549508234067	1549508234372	OK	 
+USER	SE2	10	END	1549508181751	1549508235601
+USER	SE2	9	END	1549508181748	1549508235911

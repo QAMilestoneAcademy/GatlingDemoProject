@@ -1,0 +1,1 @@
+{"query":"query getConfig {\n    clientConfig {\n      language\n      layoutDirection\n      storeCurrency\n    }\n    experiments {\n      name\n      value\n    }\n}","source":"WixStoresWebClient","operationName":"getConfig"}

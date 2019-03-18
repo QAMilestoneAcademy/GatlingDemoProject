@@ -1,0 +1,10 @@
+{
+  "simulation": "learngatling.Wm1",
+  "simulationId": "wm1",
+  "start": 1548076415151,
+  "description": "1",
+  "scenarios": ["SE"],
+  "assertions": [
+
+  ]
+}
